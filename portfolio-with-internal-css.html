@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        #introduction {
+            color:maroon;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        body {
+            background-color: rgb(235, 236, 204);
+        }
+
+        h2 {
+            color: maroon
+        }
+
+        b {
+            /* color: maroon; */
+            font-style: italic;
+        }
+
+        nav {
+            background-color: maroon;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        input, textarea, select {
+            width: 50%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid maroon;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: maroon;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(93, 9, 9);
+        }
+
+        ul a {
+            text-decoration: underline;
+            color: maroon;
+
+        }
+        hr {
+            color: maroon;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <table>
+            <tr>
+                <td>&nbsp;&nbsp;<a href="#introduction">Home</a>&nbsp;&nbsp;</td>
+                <td><a href="#skills">Skills</a>&nbsp;&nbsp;</td>
+                <td><a href="#projects">Projects</a>&nbsp;&nbsp;</td>
+                <td><a href="#feedback">Feedback</a>&nbsp;&nbsp;</td>
+                <td><a href="#achievements">Achievements</a>&nbsp;&nbsp;</td>
+                <td><a href="#education">Education</a></td>
+                <td><a href="#contact">Contact</a></td>
+            </tr>
+        </table>
+    </nav>
+    
+    
+
+    <section id="introduction">
+        <h1>Hi, I'm Saanvi Bajjuri</h1>
+        <p>I'm a Computer Science Engineering student who enjoys web development. I love creating websites and applications that are useful and solve everyday problems. Exploring new technologies and improving my skills keeps me excited about coding and design. Welcome to my portfolio!.</p>
+    </section>
+    <hr>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><b>Programming Languages:</b> HTML, CSS, JavaScript, Python, Java</li>
+            <li><b>Frameworks:</b> React, Node.js</li>
+            <li><b>Tools:</b> Git, Docker, Thunder Client, Figma</li>
+            <li><b>Database:</b> MySQL, MongoDB</li>
+            <li><b>Soft Skills:</b> Communication, Problem Solving</li>
+            <li><b>Course Subjects: </b>Computer Networks, Operating Systems, Parallel Programming</li>
+        </ul>
+    </section>
+    <hr>
+    
+    <section id="projects">
+        <h2>Projects & Work Experience</h2>
+        <ul>
+            <li><b>Project 1:</b> <a href="https://github.com/yourgithub/project1" target="_blank">E-commerce Website</a> - A fully functional online medical aid platform.</li>
+            <li><b>Project 2:</b> <a href="https://github.com/yourgithub/project2" target="_blank">Portfolio Website</a> - A responsive and user-friendly portfolio website.</li>
+        </ul>
+    </section>
+    <hr>
+
+    <section id="feedback">
+        <h2>Leave Your Feedback</h2>
+    
+        <form action="submit">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="experience">How was your experience with my portfolio?</label><br>
+            <select id="experience" name="experience" required>
+                <option value="Excellent">🌟 Excellent</option>
+                <option value="Good">👍 Good</option>
+                <option value="Average">🙂 Average</option>
+                <option value="Needs Improvement">🔧 Needs Improvement</option>
+            </select><br><br>
+    
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Share your thoughts..." required></textarea><br><br>
+    
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </section>
+    <hr>
+
+    <section id="achievements">
+    <h2>Achievements & Certifications</h2>
+
+    <ul>
+        <li><strong>Google Developer Student Clubs (GDSC)</strong> - Certification</li>
+        <li>
+            <strong>Responsive Web Design Certification</strong> - FreeCodeCamp  
+            <br>
+            <a href="https://freecodecamp.org/certification/saanvibajjuri/responsive-web-design" target="_blank">View Certificate</a>
+        </li>
+        <li>
+            <strong>Canva Design Course</strong> - Coursera  
+            <br>
+            <a href="https://coursera.org/share/7bf1c558aedb365b5eefc6b459c851ca" target="_blank">View Certificate</a>
+        </li>
+    </ul>
+    </section>
+    <hr>
+
+    <section id="education">
+        <h2>Education</h2>
+        
+        <ul>
+            <li><strong>Slate The School</strong> (2007 - 2020)</li>
+            <li><strong>Sri Chaitanya</strong> (2020 - 2022)</li>
+            <li><strong>Keshav Memorial Institute of Technology</strong> (2022 - Present) - [Computer Science Engineering]</li>
+            <li><strong>NxtWave Full Stack Development Course</strong> (Present)</li>
+        </ul>
+    </section>
+
+    <hr>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <ul>
+            <li>Email: <a href="mailto:saanvibajjuri@gmail.com">saanvibajjuri@gmail.com</a></li>
+            <li>Phone: +91 9014483660</li>
+            <li>GitHub: <a href="https://github.com/saanvi-bajjuri" target="_blank">github.com/saanvi-bajjuri</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/saanvibajjuri" target="_blank">https://www.linkedin.com/in/saanvibajjuri</a></li>
+        </ul>
+    </section>
+
+</body>
+</html>

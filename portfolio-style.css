@@ -1,0 +1,63 @@
+#introduction {
+    color:maroon;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: rgb(235, 236, 204);
+}
+
+h2 {
+    color: maroon
+}
+
+b {
+    /* color: maroon; */
+    font-style: italic;
+}
+
+nav {
+    background-color: maroon;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+input, textarea, select {
+    width: 50%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid maroon;
+    border-radius: 5px;
+}
+
+button {
+    background-color: maroon;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(93, 9, 9);
+}
+
+ul a {
+    text-decoration: underline;
+    color: maroon;
+
+}
+hr {
+    color: maroon;
+}
